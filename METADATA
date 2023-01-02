@@ -1,17 +1,3 @@
-name: "fsck_msdos"
-description:
-    "This is the FreeBSD fsck_msdosfs."
-
-third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://github.com/freebsd/freebsd/tree/master/sbin/fsck_msdosfs"
-  }
-  url {
-    type: GIT
-    value: "https://github.com/freebsd/freebsd.git"
-  }
-  version: "b60894b10adb071a8dc2b6fea5f9867c24bc9c47"
-  last_upgrade_date { year: 2020 month: 1 day: 13 }
-  license_type: NOTICE
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de2aecbcb86ec5e7513617167a8e951470863390a550d46e52138588e776aa39
+size 405
